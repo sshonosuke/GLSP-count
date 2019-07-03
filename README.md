@@ -45,7 +45,7 @@ apply(((Est-la)^2)[out,],2,mean)
 apply(((Est-la)^2)[-out,],2,mean)
 ```
 
-Compute and show credible intervals.
+Compute and show credible intervals. (Please see Demo.pdf.)
 ```{r}
 quant=function(x){ quantile(x, prob=c(0.025,0.975)) }
 ID=c(1,2,3,11,12,13)  # selected areas
