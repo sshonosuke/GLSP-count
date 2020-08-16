@@ -8,4 +8,4 @@ The repository includes the following files.
 * GLSP-function.R: Script implementing the proposed global-local shrinkage prior method 
 * data-generation.R: Script generating the simulated dataset
 * Example.RData: Simulated dataset 
-* demo.R: 
+* demo.R: Script for an application of the proposed method to the simulated dataset
